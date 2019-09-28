@@ -2,18 +2,23 @@
 <html>
 <head>
 <script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+function NameCountry() {
+  document.getElementById("demo").innerHTML = "Scotland";
+}
+function TryAgain() {
+    document.getElementById("demo").style.display = "none";
 }
 </script>
 </head>
+
 <body>
 
-<h2>JavaScript in Head</h2>
+<h2>Reading Around the World</h2>
 
-<p id="demo">A Paragraph.</p>
+<p id="demo">Where Should You Go Next?</p>
 
-<button type="button" onclick="myFunction()">Try it</button>
+<button type="button" onclick="NameCountry()">Find Out</button>
+<button type="button" onclick="TryAgain()">Try Again</button>
 
 </body>
 </html> 
